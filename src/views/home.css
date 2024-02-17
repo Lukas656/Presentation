@@ -1,0 +1,59 @@
+.home{
+    width: 100%;
+}
+.info{
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.info p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+p a{
+    color: var(--vermelho2);
+}
+
+/*  Cards*/
+.destaque-servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 25px;
+}
+.card{
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid var(--preto);
+}
+
+.card-logo{
+    width: 50px;
+}
+
+.card-info{
+    display: flex;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.card-titulo{margin-top: 10px; margin-left: 10px;}
+.card-titulo h2{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+#card-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .info{
+        font-size: 1rem;
+    }    
+}

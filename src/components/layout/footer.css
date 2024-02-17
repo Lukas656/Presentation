@@ -1,0 +1,20 @@
+/* Definindo as variáveis de cores */
+:root {
+  --branco: #F1F2FA;
+  --vermelho: #E30609;
+  --vermelho2: #DB524F;
+  --preto: #161819;
+  --preto2: #272B2D;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+    background-color: var(--preto);
+    color: var(--branco);
+  }
+  .copyright {
+    margin-top: 25px;
+    text-align: center;
+  }
