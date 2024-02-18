@@ -29,7 +29,7 @@ function Home() {
     <>
       <Header />
       <div className="home">
-      <div className="info"><p> Minha Apresentaçaõ Front-End <Link to="">Bora Conhecer!</Link></p></div>
+      <div className="info"><p> Minha Apresentação Front-End <Link to="/about">Bora Conhecer!</Link></p></div>
         <ComponetCarousel/>
         <section className="destaque-servicos">{getCards()}</section>
       </div>

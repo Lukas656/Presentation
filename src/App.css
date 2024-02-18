@@ -6,3 +6,11 @@
     width: 100%;
     font-family: "Roboto", sans-serif;
 }
+/* Definindo as variáveis de cores */
+:root {
+    --branco: #F1F2FA;
+    --vermelho: #E30609;
+    --vermelho2: #DB524F;
+    --preto: #161819;
+    --preto2: #555555;
+  }

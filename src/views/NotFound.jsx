@@ -7,12 +7,17 @@ import Footer from "../components/layout/Footer.jsx";
 function Login() {
 
   return (
-    <div className="about">
-     <Header/>
-     <h1>NotFound...</h1>
+    <>
+    <Header />
+   
+     <section className="info">
+      <h1>Ops...</h1>
+      <h1>pagina não Encontrada!</h1>
 
-      <Footer />
-    </div>
+     </section>
+
+    <Footer />
+  </>
   );
 }
 

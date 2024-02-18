@@ -1,0 +1,8 @@
+.info{
+    padding-top: 90px;
+    background-color: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

@@ -10,7 +10,7 @@ const ComponentCarousel = () => (
     showArrows={false} // Oculta os botões next e previous
     centerMode={true}
     dynamicHeight={false}
-    centerSlidePercentage={80}
+    centerSlidePercentage={100}
     infiniteLoop={true}
     autoPlay={true}
     interval={5000}

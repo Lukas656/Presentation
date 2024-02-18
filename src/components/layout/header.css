@@ -6,13 +6,12 @@
   --vermelho: #E30609;
   --vermelho2: #DB524F;
   --preto: #161819;
-  --preto2: #272B2D;
+  --preto2: #555555;
 }
   
 header{
+  background-color: var(--preto2);
   width: 100%;
-  padding-top: 15px;
-  background-color: var(--branco); 
 }
 
 a{
@@ -24,24 +23,13 @@ a:hover{
   color: var(--vermelho);
 }
 
-/* Campo superior da pagina  com um link para acesso do conteudo ná pagina , e um troca de tema claro/escuro */
 .header-top{
+  background-color: var(--preto);
   width: 100%;
+  position: fixed;
+  margin-bottom: 15px;
   display: flex;
-  justify-content: space-between;
-}
-.header-box1{  width: 30%; margin-left: 25px;}
-.header-box2{  width: 40%;  text-align: right; margin-right: 35px; display: flex; gap: 5px;}
-.header-top button{width: 30px; border-radius: 60%; }
-.header-top button:hover{ background-color: var(--vermelho2); color: var(--preto2);}
-
-/* Campo inferior onde será o menu com navegação entre os componentes e paginas do site*/
-
-.header-bottom{
-  background-color: var(--branco);
-  padding-top: 15px;
-  width: 100%;
-  display: flex;
+  z-index: 10000;
   justify-content: space-between;
 }
 
@@ -49,21 +37,22 @@ a:hover{
   width: 110px;
 }
 .nav-header{
-  background-color: var(--branco);
   width: 100%;
 }
 .nav-header ul{
   display: flex;
-  text-align: right;
+  text-align: center;
   padding-top: 5vh;
+  padding-right: 15px;
+  width: 100%;
 }
 ul li{
   list-style: none;
-  margin-right: 50px;
 }
 li a {
+  color: var(--branco);
   font-family: roboto;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 
@@ -71,7 +60,5 @@ li a {
     li a{
       font-size: 1rem;
     }
-    ul li{
-      margin-right:35px;
-    }
+    
 }

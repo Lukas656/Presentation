@@ -1,0 +1,40 @@
+.info h1{
+    margin-top: 25px;
+    font-size: 1.8rem;
+}
+
+.about-info{
+    width: 100%;
+    display: flex;
+    margin: 40px 20px 20px 40px;
+    justify-content: space-around;
+}
+.perfil{
+    border-radius: 0px 0px 30px 30px;
+    width: 200px;
+    height: 250px;
+}
+.apresentation{
+    margin: 15px 150px 0px 45px;
+}
+.apresentation p{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 568px) { 
+    .about-info{
+        margin-top: 0px;
+        margin-left: 5px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .apresentation{
+        margin: 10px 5px 5px 5px;
+    }
+    .apresentation p{
+        text-align: left;
+        font-size: 0.9rem;
+    }
+}

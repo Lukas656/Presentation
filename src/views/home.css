@@ -2,10 +2,10 @@
     width: 100%;
 }
 .info{
+    padding-top: 90px;
     background-color: var(--preto);
-    color: var(--branco);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 15rem;
     font-weight: 700;
 }
 .info p{
@@ -29,10 +29,17 @@ p a{
     width: 250px;
     border-radius: 5px;
     border: 1px solid var(--preto);
+    transition: transform 0.1s, box-shadow 0.2s; /* Adiciona uma transição suave para a transformação e a sombra */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra padrão */
 }
-
+.card:hover {
+    transform: translateY(-2px); /* Eleva o card quando o mouse está sobre ele */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta a intensidade da sombra */     
+}
 .card-logo{
+    margin-top: 15px;
     width: 50px;
+    height: 50px;
 }
 
 .card-info{
@@ -40,7 +47,7 @@ p a{
     text-align: left;
     margin-bottom: 15px;
 }
-.card-titulo{margin-top: 10px; margin-left: 10px;}
+.card-titulo{margin-top: 0px; margin-left: 10px;}
 .card-titulo h2{
     font-size: 1rem;
     font-weight: 700;
@@ -52,8 +59,8 @@ p a{
     font-weight: 700;
 }
 
-@media (max-width: 600px) {
-    .info{
-        font-size: 1rem;
-    }    
+@media (max-width: 568px) { 
+    .info p{
+        font-size: 0.9rem;
+    }
 }
