@@ -18,13 +18,19 @@ p a{
 
 /*  Cards*/
 .destaque-servicos{
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px;
+    gap: 4%;
     margin-top: 25px;
 }
+.destaque-servicos a{
+    margin-top: 25px;
+    cursor: pointer;
+}
 .card{
+    margin-top: 15px;
     text-align: center;
     width: 250px;
     border-radius: 5px;
@@ -60,6 +66,9 @@ p a{
 }
 
 @media (max-width: 568px) { 
+    .card{
+        width: 200px;
+    }
     .info p{
         font-size: 0.9rem;
     }

@@ -4,6 +4,7 @@ import "./about.css";
 import Header from "../components/layout/Header.jsx";
 import Footer from "../components/layout/Footer.jsx";
 import Perfil from "../assets/Cara do homi.jpg";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -47,6 +48,7 @@ function About() {
               posso fazer a diferença em sua equipe.<br/><br/> 
               Atenciosamente, Lucas Santos Nascimento
             </p>
+            <Link to="/projects">Veja aqui alguns dos meus Projetos mais rescentes.</Link>
           </div>
         </sectio>
       </div>
