@@ -24,7 +24,7 @@ const Footer = () => (
     </article>
 
     <div className="copyright">
-      <span>&copy;2023 Feito por:Lucas Santos Nascimento.</span>
+      <span>&copy;2023 Lucas Santos Nascimento.</span>
     </div>
   </section>
 );

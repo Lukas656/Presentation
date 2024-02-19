@@ -38,7 +38,11 @@ function Projects() {
       url: "https://kntec.netlify.app",
       imageUrl: project5Image,
     },
-    
+    {
+      title: "Projeto Batman",
+      url: "https://65d3e73097698000085d9f02--capable-kitsune-d9ee44.netlify.app",
+      imageUrl: project6Image,
+    },
     // Adicione mais projetos conforme necessário
   ];
 
