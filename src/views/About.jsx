@@ -5,6 +5,7 @@ import Header from "../components/layout/Header.jsx";
 import Footer from "../components/layout/Footer.jsx";
 import Perfil from "../assets/Cara do homi.jpg";
 import { Link } from "react-router-dom";
+import apresentacaoPdf from "../assets/apresentacao.pdf"
 
 function About() {
   return (
@@ -51,6 +52,16 @@ function About() {
             <Link to="/projects">Veja aqui alguns dos meus Projetos mais rescentes.</Link>
           </div>
         </sectio>
+        <iframe
+          src={apresentacaoPdf}
+          title="Apresentação"
+          width="150px"
+          height="900px"
+        ></iframe>
+        {/* Adicionando um link para download do PDF */}
+        <a href={apresentacaoPdf} download className="download-link">
+          Baixar CV
+        </a>
       </div>
       <Footer />
     </>
