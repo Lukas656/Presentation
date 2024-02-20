@@ -8,10 +8,10 @@ const Footer = () => (
       <img src={logo} alt="logo" className="logo"/>
 
       <div className="redes-sociais">
-        <a href="https://github.com/Lukas656/Presentation/tree/main" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/lucas.santos.2002/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/link-lucas-santos/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Lukas656/Presentation/tree/main" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
         <a href="https://wa.me/5511953819876" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/lucas.santos.2002/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
         <a href="https://react.dev" target="_blank" rel="noopener noreferrer"><i className="fab fa-react"></i></a>
       </div>
     </article>
